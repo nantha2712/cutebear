@@ -62,31 +62,32 @@
     cursor: pointer;
   }
   .care-bear__ear circle:nth-of-type(1) {
-    fill: hsl(var(--hue), calc(var(--saturation) * 1%), calc(var(--lightness) * 1%));
+    fill: #C46200;
   }
   .care-bear__ear circle:nth-of-type(2) {
     --lightness: 90;
-    fill: hsl(var(--hue), calc(var(--saturation) * 1%), calc(var(--lightness) * 1%));
+    fill: #FFA74F;
   }
   .care-bear__arm rect {
     --lightness: 45;
-    fill: hsl(var(--hue), calc(var(--saturation) * 1%), calc(var(--lightness) * 1%));
+    fill:#C46200;
   }
   .care-bear__feet {
     --lightness: 40;
+    fill:#C46200;
   }
   .care-bear__feet path {
-    fill: hsl(var(--hue), calc(var(--saturation) * 1%), calc(var(--lightness) * 1%));
+    fill:#C46200;
   }
   .care-bear__head circle {
-    fill: hsl(var(--hue), calc(var(--saturation) * 1%), calc(var(--lightness) * 1%));
+    fill:#C46200;
   }
   .care-bear__belly circle:nth-of-type(1) {
-    fill: hsl(var(--hue), calc(var(--saturation) * 1%), calc(var(--lightness) * 1%));
+    fill:#C46200;
   }
   .care-bear__belly circle:nth-of-type(2) {
     --lightness: 90;
-    fill: hsl(var(--hue), calc(var(--saturation) * 1%), calc(var(--lightness) * 1%));
+    fill:#FFA74F;
   }
   .care-bear__heart {
     --saturation: 20;
