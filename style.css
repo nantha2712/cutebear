@@ -98,7 +98,7 @@
     --lightness: 90;
   }
   .care-bear__muzzle circle {
-    fill: hsl(var(--hue), calc(var(--saturation) * 1%), calc(var(--lightness) * 1%));
+    fill: #FFBE7C;
   }
   /**
     * Rain
