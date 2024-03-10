@@ -42,29 +42,29 @@ set($BACKDROP, { scale: 0 });
 set($BEAR, { '--hue': Math.floor(Math.random() * 360), '--saturation': 0 });
 set($BEAR_ARM_LEFT, {
   transformOrigin: '85% 80%',
-  scale: 0.85,
+  
   rotate: -110 });
 
 set($BEAR_ARM_RIGHT, {
   transformOrigin: '15% 80%',
-  scale: 0.85,
+  
   rotate: 110 });
 
 set($BEAR_EAR_LEFT, { transformOrigin: '70% 85%', rotate: -60 });
 set($BEAR_EAR_RIGHT, { transformOrigin: '30% 85%', rotate: 60 });
-set($BEAR_MOUTH, { transformOrigin: '50%, 0', scaleY: 0, y: '+=2' });
-set($BEAR_NOSE, { transformOrigin: '50% 50%', y: '+=2' });
+set($BEAR_MOUTH, { transformOrigin: '50%, 0', scaleY: 0,  });
+set($BEAR_NOSE, { transformOrigin: '50% 50%',  });
 set($BEAR_BELLY, { transformOrigin: '50% 50%' });
 set($BEAR_MUZZLE, { transformOrigin: '50% 50%' });
 set($BEAR_HEART, { transformOrigin: '50% 50%' });
 set([$BEAR_CHEEK_LEFT, $BEAR_CHEEK_RIGHT], {
   transformOrigin: '50% 50%',
   opacity: 0,
-  y: '+=2' });
+   });
 
 set([$BEAR_EYE_LEFT, $BEAR_EYE_RIGHT], {
   transformOrigin: '50% 50%',
-  y: '+=2',
+ 
   clipPath: 'inset(50% 0 0 0)' });
 
 set([$BEAR_PUPIL_LEFT, $BEAR_PUPIL_RIGHT], {
@@ -107,7 +107,7 @@ const fireHearts = () => {
   newHeart.className = 'heart';
   newHeart.style.setProperty(
   '--size',
-  Math.floor(Math.random() * 30 - 10 + 1) + 5);
+  );
 
 
   newHeart.style.setProperty('--hue', Math.floor(Math.random() * 360));
